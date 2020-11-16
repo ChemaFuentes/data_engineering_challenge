@@ -11,7 +11,7 @@ In order to run the solution you just need to copy a batch of documents into dbf
 ## Solution description
 Solution implementation has been designed to work over the databricks challenge cluster and takes advantage of several of it's features such as notebooks, workflows, jobs and spark integration. ChallengeWorkflow notebook contains the implementation of the process flow. This workflow runs every 15 minutes, processing all json files present at a given location. Following diagram describes that processing:
 
-![Workflow diagram](images/Workflow.jpg)
+![Workflow diagram](Workflow.jpg)
 
 A brief description of the workflow componentes can be found below.
 
